@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
+/*Navigation Bar--------------------*/
+
+
+header{
+  font-family: 'BioRhyme';
+  text-align: center;
+  color: #FCFCFC;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+
+nav{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  background: #d5bdaf;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 50px;
+  flex-wrap: wrap;
+}
+nav .logo{
+    height: 100px;
+    width: 100px;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li{
+  margin: 0 5px;
+}
+
+.navegationBarItem{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.navegationBarItem:hover{
+    color: #a98467;
+}
+
+/*--------------------------*/
+
+
+#welcomeCover, #aboutMeSection, #ProjectsSection,#contactSection{
+  scroll-margin-top: 6rem;
+}
+
+#welcomeCover{
+    background: #e3d5ca;
+    height: 650px;
+    width: 100%;
+    background-image: url('img/16.png');
+}
+
+#welcomeCoverImage{
+  float: right;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#welcomeConverProfileImage{
+  height: 400px;
+  width: 400px;  
+}
+
+
+
+#welcomeCoverTitle{
+  float: left;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#welcomeCoverTitle > ul{
+  list-style: none;
+}
+
+
+
+#welcomeCoverTitle > ul > li > h1{
+  font-size: 60px;
+  color: #edede9;
+}
+
+#welcomeCoverTitle > ul > li > p{
+  font-size: 20px;
+  color: #edede9;
+}
+
+#aboutMeSection{
+  padding-top:  20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #f5ebe0;
+  height: 300px;
+  width: 100%;
+}
+
+#aboutMeSection > h2{
+  font-size: 30px;
+  color: #d5bdaf;
+  text-align: center;
+}
+
+#aboutMeSection > p{
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 16px;
+  color: #d5bdaf;
+}
+
+
+#ProjectsSection{
+  padding-top:  20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #f5ebe0;
+  height: 800px;
+  width: 100%;
+}
+
+#ProjectsSection > h2{
+  font-size: 30px;
+  color: #d5bdaf;
+  text-align: center;
+}
+
+#ProjectsSection > h3{
+  font-size: 18px;
+  color: #d5bdaf;
+  text-align:left;
+}
+
+#contactSection{
+  padding-top:  20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #f5ebe0;
+  height: 350px;
+  width: 100%;
+}
+
+#contactSection > h2{
+  font-size: 30px;
+  color: #d5bdaf;
+  text-align: center;
+}
+
+#contactSection > p{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #d5bdaf;
+}
+
+#contactSection > a{
+  margin-top: 10px;
+  text-align:center;
+  display:block;
+  font-size: 16px;
+  color: #d5bdaf;
+}
+
+
+footer{
+  background-color: #d5bdaf;
+}
+
+footer>p{
+  color: #f2f2f2;
+  text-align: center;
+}
